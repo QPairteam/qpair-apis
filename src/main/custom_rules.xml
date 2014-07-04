@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   -Copyright © 2014 LG Electronics
+   -->
+
+<project name="qpair_custom" default="help">
+    <dirname property="root.basedir" file="${ant.file.root}"/>
+    <import file="${root.basedir}/tools/gradle_rules.xml" />
+    <import file="${root.basedir}/tools/A_standard.xml" />
+</project>
